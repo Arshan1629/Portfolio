@@ -36,7 +36,7 @@ function Home() {
             </a>
 
             <a
-            href="https://github.com/ArshanShaikh87"
+            href="https://github.com/Arshan1629"
             target="_blank"
             rel="noopener noreferrer"
             className="btn primary">

@@ -21,33 +21,33 @@ function Contact() {
             <span>
               <i className="fas fa-phone"></i>
             </span>
-            <a href="tel:+918793740825">+91 8793740825</a>
+            <a href="tel:+917020626233">+91 7020626233</a>
           </div>
 
           <div className="contact-item">
             <span>
               <i className="fas fa-envelope"></i>
             </span>
-            <a href="mailto:arshanshaikh200@gmail.com">
-              arshanshaikh200@gmail.com
+            <a href="mailto:arshanshaikh1629@gmail.com">
+              arshanshaikh1629@gmail.com
             </a>
           </div>
           <div class="Follow">
           Follow <span>Me</span></div>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/arshanshaikh" target="_blank" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/shaikh-arshan-as1629" target="_blank" title="LinkedIn">
               <i className="fab fa-linkedin-in"></i>
             </a>
 
-            <a href="https://github.com/ArshanShaikh87" target="_blank" title="GitHub">
+            <a href="https://github.com/Arshan1629" target="_blank" title="GitHub">
               <i className="fab fa-github"></i>
             </a>
 
-            <a href="https://www.instagram.com/ars_shk_?igsh=eWhteGl4cGw0NHUx" target="_blank" title="Instagram">
+            <a href="https://www.instagram.com/_arshan_2x?igsh=MXE5dWRqempnbnNoOQ==" target="_blank" title="Instagram">
               <i className="fab fa-instagram"></i>
             </a>
 
-            <a href="+918793740825" target="_blank" title="Whatsapp">
+            <a href="+917020626233" target="_blank" title="Whatsapp">
               <i className="fab fa-whatsapp"></i>
             </a>
           </div>

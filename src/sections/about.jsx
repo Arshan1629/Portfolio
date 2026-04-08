@@ -51,7 +51,7 @@ function About() {
 
             <div className="about-actions">
               <a
-                href="https://www.canva.com/design/DAGTj_wmQa0/QwlhnMzjYulcDocHrbvEcg/edit?utm_content=DAGTj_wmQa0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                href="https://canva.link/w5kx4818wn2wpyp"
                 className="btn"
                 target="_blank"
                 rel="noopener noreferrer"
