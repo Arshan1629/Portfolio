@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../styles/portfolio.css';
 import project1 from '../assets/Project-FurniCraft-Store.jpg.png';
-import project2 from '../assets/Project-portfoliowebsite.jpg';
+import project2 from '../assets/Project-portfoliowebsite.png';
 
 const projectsData = [
   {
