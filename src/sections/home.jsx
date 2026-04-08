@@ -27,7 +27,7 @@ function Home() {
 
           <p>
             I build modern, responsive, and scalable web applications using
-            React, Spring Boot, and Oracle Database.
+            Java, React, Spring Boot, and Oracle Database.
           </p>
 
           <div className="home-btns">
