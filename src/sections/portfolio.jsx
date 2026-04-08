@@ -13,7 +13,7 @@ const projectsData = [
     impact: 'Improved engagement and production-ready architecture.',
     tech: ['React', 'Django', 'PostgreSQL'],
     live: 'https://theweddingtree.vercel.app',
-    github: 'https://github.com/ArshanShaikh87/The-Wedding-Tree.git',
+    github: 'https://github.com/Arshan1629/Online-Furniture-Store',
   },
   {
     img: project2,
@@ -24,7 +24,7 @@ const projectsData = [
     impact: 'Clear showcase of skills and recruiter readiness.',
     tech: ['React', 'Spring Boot', 'Oracle'],
     live: 'https://arshanshaikh.vercel.app',
-    github: 'https://github.com/ArshanShaikh87/Portfolio.git',
+    github: 'https://github.com/Arshan1629/Portfolio',
   },
 ];
 
