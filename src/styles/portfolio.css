@@ -38,7 +38,7 @@
   background: var(--bg-color);
   border-radius: 24px;
   padding: 2.5rem;
-  border: 1.5px solid rgba(255, 77, 5, 0.15);
+  border: 1.5px solid rgba(237, 237, 237, 0.15);
   transition: 0.35s ease;
 }
 
@@ -164,7 +164,7 @@
   background: var(--second-bg-color);
   color:var(--text-color);
   transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(255, 77, 5, 0.45);
+  box-shadow: 0 10px 24px rgba(237, 237, 237, 0.45);
 }
 
 /* =========================
