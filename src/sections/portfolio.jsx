@@ -1,17 +1,17 @@
 import { useState } from 'react';
 import '../styles/portfolio.css';
-import project1 from '../assets/Project-weddingtree.jpg';
+import project1 from '../assets/Project-FurniCraft-Store.jpg.png';
 import project2 from '../assets/Project-portfoliowebsite.jpg';
 
 const projectsData = [
   {
     img: project1,
     title: 'The Wedding Tree',
-    short: 'A full-stack event management platform.',
-    problem: 'Manual event inquiries and poor user experience.',
-    solution: 'Built a scalable platform with responsive UI and automation.',
+    short: 'A full-stack Furniture Catalog Visit Store.',
+    problem: 'Manual inquiries and Human responsive system.',
+    solution: 'Built a scalable platform with responsive UI.',
     impact: 'Improved engagement and production-ready architecture.',
-    tech: ['React', 'Django', 'PostgreSQL'],
+    tech: ['React', 'Java', 'Oracle'],
     live: 'https://theweddingtree.vercel.app',
     github: 'https://github.com/Arshan1629/Online-Furniture-Store',
   },
