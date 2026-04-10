@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <h2 className="logo">&lt; <span>arshaan</span> &gt;</h2>
+      <h2 className="logo">&lt; <span>arshan</span> &gt;</h2>
 
       {/* Hamburger */}
       <div

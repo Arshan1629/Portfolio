@@ -11,8 +11,6 @@ const skillGroups = {
   Backend: [
     { name: 'Java', icon: 'devicon-java-plain colored' },
     { name: 'Spring Boot', icon: 'devicon-spring-plain colored' },
-    { name: 'Python', icon: 'devicon-python-plain colored' },
-    { name: 'Django', icon: 'devicon-django-plain colored' },
     { name: 'Oracle DB', icon: 'devicon-oracle-original colored' },
   ],
   Tools: [
