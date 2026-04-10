@@ -38,15 +38,14 @@ function About() {
             </h2>
 
             <p>
-              I’m <strong>Arshan Munir Shaikh</strong>, a Full Stack Java Developer passionate about building clean, 
-              scalable, and user-friendly web applications.
-               I enjoy working on both frontend and backend development and continuously improving my technical skills.
+              I’m <strong>Arshan Sameer Shaikh</strong>, a motivated <strong>Full Stack Java Developer</strong> with a strong interest in designing and developing scalable, user-focused web applications.
+               I enjoy solving real-world problems through technology and working across both frontend and backend systems.
             </p>
 
             <p>
-              I work with <strong>React</strong>, <strong>Spring Boot</strong>, <strong>Python, Django</strong>, and
-              <strong> Oracle Database</strong>, As a fresher, I focus on practical learning, real-world projects,
-               and writing code that follows industry standards and best practices.
+              My technical skill set includes <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>React</strong>, and
+              <strong> Oracle Database</strong>, and I actively apply these technologies in project-based learning to strengthen my development expertise. 
+              As a fresher, I am eager to contribute to innovative teams, follow industry best practices, and continuously grow as a software professional.
             </p>
 
             <div className="about-actions">

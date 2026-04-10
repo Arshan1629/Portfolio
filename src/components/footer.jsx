@@ -32,7 +32,7 @@ function Footer() {
 
       {/* Bottom */}
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Arshan Shaikh. All rights reserved.
+        © {new Date().getFullYear()} Arshan Sameer Shaikh. All rights reserved.
       </div>
 
     </footer>

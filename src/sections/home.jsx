@@ -23,7 +23,7 @@ function Home() {
 
         {/* Content appears AFTER typing */}
         <div className={`hero-reveal ${showContent ? 'show' : ''}`}>
-          <h3>Full Stack Developer</h3>
+          <h3>Full Stack Java Developer</h3>
 
           <p>
             I build modern, responsive, and scalable web applications using

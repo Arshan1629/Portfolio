@@ -6,7 +6,7 @@ import project2 from '../assets/Project-portfoliowebsite.png';
 const projectsData = [
   {
     img: project1,
-    title: 'The Wedding Tree',
+    title: 'Furni Craft Store',
     short: 'A full-stack Furniture Catalog Visit Store.',
     problem: 'Manual inquiries and Human responsive system.',
     solution: 'Built a scalable platform with responsive UI.',
