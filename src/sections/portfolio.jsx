@@ -12,7 +12,7 @@ const projectsData = [
     solution: 'Built a scalable platform with responsive UI.',
     impact: 'Improved engagement and production-ready architecture.',
     tech: ['React', 'Java', 'Oracle'],
-    live: 'https://theweddingtree.vercel.app',
+    // live: 'https://theweddingtree.vercel.app',
     github: 'https://github.com/Arshan1629/Online-Furniture-Store',
   },
   {
@@ -23,7 +23,7 @@ const projectsData = [
     solution: 'Designed a clean portfolio using React and Spring Boot.',
     impact: 'Clear showcase of skills and recruiter readiness.',
     tech: ['React', 'Spring Boot', 'Oracle'],
-    live: 'https://arshantabish.vercel.app/',
+    live: 'https://arshanshaikh.vercel.app',
     github: 'https://github.com/Arshan1629/Portfolio',
   },
 ];
