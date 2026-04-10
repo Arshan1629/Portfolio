@@ -18,7 +18,7 @@ function Home() {
       <div className="home-content">
         <h1 className="typing">
           Hi, I’m <br />
-          <span>Arshan Rowdy</span>
+          <span>Arshan Shaikh</span>
         </h1>
 
         {/* Content appears AFTER typing */}
