@@ -23,7 +23,7 @@ const projectsData = [
     solution: 'Designed a clean portfolio using React and Spring Boot.',
     impact: 'Clear showcase of skills and recruiter readiness.',
     tech: ['React', 'Spring Boot', 'Oracle'],
-    live: 'https://arshanshaikh.vercel.app',
+    live: 'https://arshantabish.vercel.app/',
     github: 'https://github.com/Arshan1629/Portfolio',
   },
 ];
