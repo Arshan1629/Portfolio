@@ -50,7 +50,7 @@ function Navbar() {
         <li><a href="#home" className={active === 'home' ? 'active' : ''} onClick={closeMenu}>Home</a></li>
         <li><a href="#about" className={active === 'about' ? 'active' : ''} onClick={closeMenu}>About</a></li>
         <li><a href="#services" className={active === 'services' ? 'active' : ''} onClick={closeMenu}>Services</a></li>
-        <li><a href="#portfolio" className={active === 'portfolio' ? 'active' : ''} onClick={closeMenu}>Portfolio</a></li>
+        <li><a href="#portfolio" className={active === 'portfolio' ? 'active' : ''} onClick={closeMenu}>Project</a></li>
         <li><a href="#contact" className={active === 'contact' ? 'active' : ''} onClick={closeMenu}>Contact</a></li>
       </ul>
     </nav>
