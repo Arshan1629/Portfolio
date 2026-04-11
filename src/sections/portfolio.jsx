@@ -12,7 +12,7 @@ const projectsData = [
     solution: 'Built a scalable platform with responsive UI.',
     impact: 'Improved engagement and production-ready architecture.',
     tech: ['React', 'Java', 'Oracle'],
-    // live: 'https://theweddingtree.vercel.app',
+    live: 'https://furnicraftstore.vercel.app/',
     github: 'https://github.com/Arshan1629/Online-Furniture-Store',
   },
   {
