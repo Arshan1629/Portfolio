@@ -1,48 +1,53 @@
-import '../styles/contact.css';
+import "../styles/contact.css";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
-    message: ""
+    message: "",
   });
 
+  // handle input change
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = async (e) => {
+  // handle form submit
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch("http://localhost:8080/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(formData)
-      });
-
-      if (response.ok) {
+    emailjs
+      .send(
+        "service_k7lm0po", // your service ID
+        "template_nl6qyvj", // your template ID
+        formData,
+        "QN72-MGaI9Si6M6Pj" // your public key
+      )
+      .then(() => {
         alert("Message sent successfully!");
-      } else {
-        alert("Something went wrong.");
-      }
 
-    } catch (error) {
-      console.error(error);
-    }
+        // reset form after submit
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("Something went wrong. Please try again.");
+      });
   };
 
   return (
     <section id="contact" className="contact">
-
       <div className="contact-container">
 
         {/* LEFT SIDE */}
@@ -130,6 +135,7 @@ function Contact() {
             name="name"
             placeholder="Your Name"
             required
+            value={formData.name}
             onChange={handleChange}
           />
 
@@ -138,6 +144,7 @@ function Contact() {
             name="email"
             placeholder="Your Email"
             required
+            value={formData.email}
             onChange={handleChange}
           />
 
@@ -146,6 +153,7 @@ function Contact() {
             name="phone"
             placeholder="Your Mobile"
             required
+            value={formData.phone}
             onChange={handleChange}
           />
 
@@ -153,6 +161,7 @@ function Contact() {
             name="message"
             placeholder="Your Message"
             required
+            value={formData.message}
             onChange={handleChange}
           ></textarea>
 
@@ -163,7 +172,6 @@ function Contact() {
         </form>
 
       </div>
-
     </section>
   );
 }
